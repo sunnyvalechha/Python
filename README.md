@@ -24,15 +24,15 @@ Shortcuts:
   
  **Important:** Python is a dynamically typed programming language where we do not mention the data-type of a variable it automatically understands.
 
-  name = "Sunny"
-  Age = 35
-  City = "Pune"
-  Package = 18
+    name = "Sunny"
+    Age = 35
+    City = "Pune"
+    Package = 18
 
-  print(name)
-  print(Age)
-  print(City)
-  print(Package)
+    print(name)
+    print(Age)
+    print(City)
+    print(Package)
 
   
 
