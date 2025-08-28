@@ -1,16 +1,11 @@
-# Python
-
 Shortcuts:
-
-* Clt+/      # Comment selected lines
-* After if statement put ":" it will automatic make indentation on next line.
-
+* Clt+/                        # Comment selected lines
+* After if statement put ":"   # it will automatic make indentation on next line.
 
 
-# Variables & Data Types
-
+- Variables & Data Types:
+- 
 * **Variables** used to temporary store the value of a data-type. 
-
 * **Data-type:** Categorize the type of values a variable can hold. Below are the some commonly used data-types:
   
   1. integer (int)
@@ -37,5 +32,4 @@ Shortcuts:
   
 
  
-
 
