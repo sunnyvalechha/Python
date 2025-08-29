@@ -13,6 +13,8 @@ A: Any day-2-day tasks in a linux systems like creating folders/files, checking 
 Shortcuts:
 * Clt+/                        # Comment selected lines
 * After if statement put ":"   # it will automatic make indentation on next line.
+* alt+click                    # type same thing on multiple line: press alt & click on the lines you want to write
+  
 
 
 - Variables & Data Types:
@@ -85,13 +87,13 @@ Python supports two main types of type conversion:
  
 * User input in Python is primarily taken using the built-in **input()** function. The input() function prompts the user to enter text and waits for them to press Enter. Whatever the user types is returned as a string.
 
-    a = input("Enter a name: ")
-    print(a)
-    print(type(a))
-
-    b = input("Enter a number")
-    print(b)
-    print(type(b))
+        a = input("Enter a name: ")
+        print(a)
+        print(type(a))
+    
+        b = input("Enter a number")
+        print(b)
+        print(type(b))
 
 Note: Whatever value we assign for 'a/b' or 'input()' will be considered as string not integer even if we give input as a number still it is consider as string.
 
@@ -107,4 +109,45 @@ Note: Whatever value we assign for 'a/b' or 'input()' will be considered as stri
       print(c)
       print(type(c))
       print(c+10)  # here, we can add 10 in the output after converting into an integer else we cannot do.
+
+
+Note: Another simple way to converting an string into inter is below:
+
+      c = int(input("Enter a number: "))    # just put 'int' before "input()"
+      print(c)
+      print(type(c))
+      print(c+10)
+
+- Comments, Escape sequences & Print statements
+
+* Clt+/ # comment multiple lines
+* '''abc xyz''' # comment multiple lines with tripple single quotes
+
+* Escape sequence: used to include special characters in string
+
+    print("My name is sunny valechha \nmy wife's name is anjali \nson's name is saarth")
+
+* \n will create a new line
+
+    print("My name is sunny valechha \nmy wife's name is anjali \\ my son's name is saarth")
+
+* double \\ is treated as single '\' so when you want to use single, in code use double.
+
+    print ("Sunny \" Valechha")
+
+* Suppose, you want to print double quote " somewhere but it cannot print directly so use (\")
+
+- **Operators**
+
+* Python operators are special symbols or keywords that perform operations on one or more operands (values or variables). They are categorized into several types:
+
+1. Arithmetic Operators
+2. Assignment Operators
+3. Comparison Operators
+4. Logical Operators
+5. Identity Operators
+6. Membership Operators
+7. Bitwise Operators
+
+
 
