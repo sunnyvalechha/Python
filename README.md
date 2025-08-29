@@ -56,7 +56,55 @@ Shortcuts:
 * Variables names are case sensitive (small & SMALL both will treated differentely)
 * Avoid using keywords (e.g., if, for, while) as variable names.
 
+- **Typecasting in Python**
 
+* Type casting in Python, also known as type conversion, is the process of converting a value from one data type to another. This is often necessary when performing operations that require specific data types, or when you need to change the representation of data for a particular purpose.
 
+Python supports two main types of type conversion:
+* Implicit Type Conversion (Coercion): This occurs automatically when Python converts one data type to another without explicit instruction from the programmer.
+* Explicit Type Conversion (Type Casting): This requires the programmer to explicitly use built-in functions to convert a value from one data type to another.
+
+    a = 34
+    b = "34"
+    
+    print(a)
+    print(b)
+    
+    print(type(a))
+    print(type(b))
+    
+    c = int(b)    # this converts type of value from one data-type to another like value of 'b' from string to integer
+    print(c)
+    print(type(c))
+
+    d = bool(a)
+    print(d)
+    print(type(d))
+
+- **User input in Python**
  
+* User input in Python is primarily taken using the built-in **input()** function. The input() function prompts the user to enter text and waits for them to press Enter. Whatever the user types is returned as a string.
+
+    a = input("Enter a name: ")
+    print(a)
+    print(type(a))
+
+    b = input("Enter a number")
+    print(b)
+    print(type(b))
+
+Note: Whatever value we assign for 'a/b' or 'input()' will be considered as string not integer even if we give input as a number still it is consider as string.
+
+* Convert string into a integer
+
+    c = input("Enter a number: ")
+    c = int(c) # Convert c into int version of c
+    print(c)
+    print(type(c))
+
+    c = input("Enter a number: ")
+    c = int(c) # Convert c into int version of c
+    print(c)
+    print(type(c))
+    print(c+10)  # here, we can add 10 in the output after converting into an integer else we cannot do.
 
