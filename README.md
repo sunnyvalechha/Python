@@ -97,14 +97,14 @@ Note: Whatever value we assign for 'a/b' or 'input()' will be considered as stri
 
 * Convert string into a integer
 
-    c = input("Enter a number: ")
-    c = int(c) # Convert c into int version of c
-    print(c)
-    print(type(c))
+  c = input("Enter a number: ")
+  c = int(c) # Convert c into int version of c
+  print(c)
+  print(type(c))
 
-    c = input("Enter a number: ")
-    c = int(c) # Convert c into int version of c
-    print(c)
-    print(type(c))
-    print(c+10)  # here, we can add 10 in the output after converting into an integer else we cannot do.
+  c = input("Enter a number: ")
+  c = int(c) # Convert c into int version of c
+  print(c)
+  print(type(c))
+  print(c+10)  # here, we can add 10 in the output after converting into an integer else we cannot do.
 
