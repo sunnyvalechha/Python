@@ -4,7 +4,7 @@ Shortcuts:
 
 
 - Variables & Data Types:
-- 
+
 * **Variables** used to temporary store the value of a data-type. 
 * **Data-type:** Categorize the type of values a variable can hold. Below are the some commonly used data-types:
   
