@@ -1,3 +1,15 @@
+Q: Why Python or Shell vs Python?
+A: Any day-2-day tasks in a linux systems like creating folders/files, checking memory/disks we must know shell commands. The primary purpose not the only purpose of Devops engineers is to interact with Linux systems.
+* Shell is restricted to linux systems whereas python is for both linux and windows.
+* I can learn ansible to interact with both the linux and windows so why to learn python because ansible is also written on python.
+* When we want to write some complex tasks like to interact with API, data manupulation. There python wins over shell scripting because python is designed to perform these activities in a simpler way.
+* Example: We have a github account in a account we have some 20-30 repositories, our tasks is to list out all the issues that created in the repository and who has the author of that issue? Our tasks is talk to the API of github that fetch issue of the repository and get the author name from it.
+* We can acheive this through shell or python but the modules of the python is rich then shell.  
+
+
+
+
+
 Shortcuts:
 * Clt+/                        # Comment selected lines
 * After if statement put ":"   # it will automatic make indentation on next line.
