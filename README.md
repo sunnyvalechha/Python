@@ -20,28 +20,43 @@ Shortcuts:
 * **Variables** used to temporary store the value of a data-type. 
 * **Data-type:** Categorize the type of values a variable can hold. Below are the some commonly used data-types:
   
-  1. integer (int)
-  2. float
-  3. string (str)
-  4. boolean (bool)
-  5. list
-  6. tuple
-  7. sets
-  8. dictonary
+  1. integer (int)  - Whole numbers (1,2,5,19)
+  2. float          - Decimal numbers (1.4, 0.9)
+  3. string (str)   - Text enclosed in single or double quotes ("Hello", 'Python') 
+  4. boolean (bool) - True or False
+  5. list           - Ordered mutable collections (e.g., [1, 2, 3])
+  6. tuple          - Ordered immutable collections (e.g., (1, 2, 3))
+  7. sets           - Unordered collections of unique elements (e.g., {1, 2, 3})
+  8. dictonary      - key-value pairs (e.g., {"name": "Alice", "age": 25 })
   
- **Important:** Python is a dynamically typed programming language where we do not mention the data-type of a variable it automatically understands.
+ **Important:** Python is a dynamically typed programming language where we do not need to specify the data-type of a variable, it automatically understands.
 
     name = "Sunny"
     Age = 35
     City = "Pune"
     Package = 18
-
-    print(name)
+    
+    print(name)  # print the value of variable
     print(Age)
     print(City)
     print(Package)
+    
+    print (type(name))  # get the type of data-type
+    print (type(Age))
+    print (type(City))
+    print (type(Package))
 
-  
+    this_task_is_completed = True # this also could be False
+    print (this_task_is_completed)
+    print(type(this_task_is_completed))
+
+  - Rules to define variables:
+* Variable name must start with letter (a-z, A-Z) or an underscore (_).
+* They can contain letters, numbers, & underscores.
+* Variables names are case sensitive (small & SMALL both will treated differentely)
+* Avoid using keywords (e.g., if, for, while) as variable names.
+
+
 
  
 
