@@ -58,7 +58,7 @@ Shortcuts:
 * Variables names are case sensitive (small & SMALL both will treated differentely)
 * Avoid using keywords (e.g., if, for, while) as variable names.
 
-- **Typecasting in Python**
+# Typecasting in Python
 
 * Type casting in Python, also known as type conversion, is the process of converting a value from one data type to another. This is often necessary when performing operations that require specific data types, or when you need to change the representation of data for a particular purpose.
 
@@ -83,7 +83,7 @@ Python supports two main types of type conversion:
     print(d)
     print(type(d))
 
-- **User input in Python**
+# User input in Python
  
 * User input in Python is primarily taken using the built-in **input()** function. The input() function prompts the user to enter text and waits for them to press Enter. Whatever the user types is returned as a string.
 
@@ -137,7 +137,7 @@ Note: Another simple way to converting an string into inter is below:
 
 * Suppose, you want to print double quote " somewhere but it cannot print directly so use (\")
 
-- **Operators**
+# Operators
 
 * Python operators are special symbols or keywords that perform operations on one or more operands (values or variables). They are categorized into several types:
 
@@ -150,7 +150,7 @@ Note: Another simple way to converting an string into inter is below:
 7. Bitwise Operators
 
 
-- **Data-type, String, String handling functions**
+# Data-type, String, String handling functions
 
 * split the arn by last or second last word
 
