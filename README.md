@@ -149,29 +149,55 @@ Note: Another simple way to converting an string into inter is below:
 6. Membership Operators
 7. Bitwise Operators
 
+* Arithmatic:
+
+      a = 30
+      b = 20
+      
+      print(" a + b = ", a + b)
+      print(" a - b = ", a - b)
+      print(" a * b = ", a * b)
+      print(" a / b = ", a / b)
+      print(" a % b = ", a % b)
+      print(" a // b = ", a // b)
+
+Note: Last '//' is for the floor division that will ignore the digit after decimal
+
+* Comparision operators: It always written in True or False
+
+      a = 30
+      b = 20
+      
+      print(a>b)
+      print(a<b)
+      print(a==b)
+      print(a<=b)
+      print(a>=b)
+
+
 
 # Data-type, String, String handling functions
 
 * split the arn by last or second last word
 
-    arn = "arn:aws:iam::123456789012:user/john"
-    print(arn.split("/")[1])
+      arn = "arn:aws:iam::123456789012:user/john"
+      print(arn.split("/")[1])
 
 * Convert name into upper case
 
-    name = "sunny"
-    print (name.upper())
+      name = "sunny"
+      print (name.upper())
 
 * Concatenation of strings
 
-    string1 = "Sunny"
-    string2 = "Valechha"
-    print (string1 + string2)
-
-    string1 = "Sunny"
-    string2 = "Valechha"
-    result = (string1 + string2)
-    print (result)
+      string1 = "Sunny"
+      string2 = "Valechha"
+      print (string1 + string2)
+  
+      string1 = "Sunny"
+      string2 = "Valechha"
+      result = (string1 + string2)
+      print (result)
 
 * Count the number of characters in a string using 'len'
 
