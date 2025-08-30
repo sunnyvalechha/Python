@@ -163,7 +163,18 @@ Note: Another simple way to converting an string into inter is below:
 
 Note: Last '//' is for the floor division that will ignore the digit after decimal
 
-* Comparision operators: It always written in True or False
+* Assignment Operators: used to assign values to variables. They take the value on their right side and store it in the variable on their left side. The most fundamental assignment operator is the equals sign (=).
+
+      a = 30
+      print(a)
+      a*=2
+      print(a)
+      a+=5
+      print(a)
+      a-=6
+      print(a)
+
+* Comparision operators: It always give output as True or False
 
       a = 30
       b = 20
@@ -173,6 +184,27 @@ Note: Last '//' is for the floor division that will ignore the digit after decim
       print(a==b)
       print(a<=b)
       print(a>=b)
+
+* Logical Operators: Three logical operators: and, or, and not. These operators are used to combine or modify conditional expressions, resulting in a Boolean value.
+
+      print (True and False)
+      print (True and True)
+      print (False and False)
+      print(False or True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
