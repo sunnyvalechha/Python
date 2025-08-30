@@ -150,4 +150,29 @@ Note: Another simple way to converting an string into inter is below:
 7. Bitwise Operators
 
 
+- **Data-type, String, String handling functions**
 
+* split the arn by last or second last word
+
+    arn = "arn:aws:iam::123456789012:user/john"
+    print(arn.split("/")[1])
+
+* Convert name into upper case
+
+    name = "sunny"
+    print (name.upper())
+
+* Concatenation of strings
+
+    string1 = "Sunny"
+    string2 = "Valechha"
+    print (string1 + string2)
+
+    string1 = "Sunny"
+    string2 = "Valechha"
+    result = (string1 + string2)
+    print (result)
+
+* Count the number of characters in a string using 'len'
+
+  
