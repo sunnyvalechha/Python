@@ -223,20 +223,42 @@ Note: Last '//' is for the floor division that will ignore the digit after decim
 
 Note: In above code, at the end, "End of Program" is not inside the 'else' statement hence it will always printed.
 
-age = int(input("Enter your Age: "))
-
-if (age > 20):
-    print("You can drive")      # If age is more than 20 you can drive, this will print
-elif(age == 20):    # If age is exactly 20, schedule an interview
-    print("Let's schedule an interview for re-evaluation")
-else:
-    print("Sorry you cannot drive")
-
-
+      age = int(input("Enter your Age: "))
+      
+      if (age > 20):
+          print("You can drive")      # If age is more than 20 you can drive, this will print
+      elif(age == 20):    # If age is exactly 20, schedule an interview
+          print("Let's schedule an interview for re-evaluation")
+      else:
+          print("Sorry you cannot drive")
 
 
+      if (age > 20):
+          print("You can drive")      # If age is more than 20 you can drive, this will print
+      elif(age == 20):    # If age is exactly 20, schedule an interview
+          print("Let's schedule an interview for re-evaluation")
+      elif(age == 0):
+          print("oh my god! you are just born")
+      else:
+          print("Sorry you cannot drive")
 
 
+* Match case
+
+      a = int(input("Enter a number between 1 to 10: "))
+      match(a):
+          case 2:
+              print("you won a mobile")
+          case 4:
+              print("you won a tablet")
+          case 6:
+              print("you won a cycle")
+          case 8:
+              print("you won a cap")
+          case _:
+              print("Sorry, better luck next time")
+
+# For loops
 
 
 
