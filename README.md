@@ -192,7 +192,45 @@ Note: Last '//' is for the floor division that will ignore the digit after decim
       print (False and False)
       print(False or True)
 
+      print("Not Operator")
+      print(not(True))
+      print(not(False))
 
+
+# If-Else conditional statements
+
+- Conditional statements?
+* Conditional statements allows us to execute code based on certain conditions.
+* python uses 'if' 'elif' and 'else'
+
+
+* If statement
+
+    age = 30
+    if (age > 15):
+        print ("You are eligible to drive")
+        print("Thank you")
+
+* If else
+
+      age = int(input("Enter your age: "))
+  
+      if(age > 18):
+          print("You are elegible for driving")    # 4 spaces (indentation) in the begenning indicate that the print statement is inside the 'if' statement. 
+      else:
+          print("You are not eligible to drive")   # 4 spaces (indentation) in the begenning indicate that the print statement is inside the 'else' statement.
+      print("End of Program")
+
+Note: In above code, at the end, "End of Program" is not inside the 'else' statement hence it will always printed.
+
+age = int(input("Enter your Age: "))
+
+if (age > 20):
+    print("You can drive")      # If age is more than 20 you can drive, this will print
+elif(age == 20):    # If age is exactly 20, schedule an interview
+    print("Let's schedule an interview for re-evaluation")
+else:
+    print("Sorry you cannot drive")
 
 
 
