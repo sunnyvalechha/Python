@@ -267,20 +267,30 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
 
 * for loops: I want to print numbers from 1 to 10. So it will be 'n-1' take 1 number extra for e.g. here take 11
 
-    for i in range(1, 11):
-        print(i)
-
-    for i in range(1, 5):
-        print(2*(i))    # this will multiple 1-4 with 2
-
       for i in range(1, 11):
-        print("5 X", i , "=", 5*i)    # it will print table of 5
+          print(i)
+  
+      for i in range(1, 5):
+          print(2*(i))    # this will multiple 1-4 with 2
+  
+        for i in range(1, 11):
+          print("5 X", i , "=", 5*i)    # it will print table of 5
 
   
 Note: Everytime we put a comma ',' it will create a space
 
 
-* while loops: 
+* while loops: While loops execute a block of code as long as a condition is True.
+* They are useful when the number of operations is not known in advance.
+
+      i = 1
+      while i < 10:
+          print(i)
+          i = i + 1
+
+Note: In above while loop code the control goes to the 'while' till the value of i is less than the value of i (10). It will check if its less than 10 than + 1 
+
+
 
  
 
