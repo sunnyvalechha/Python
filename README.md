@@ -260,7 +260,29 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
 
 # For loops
 
+* Python has two primitive loop commands:
 
+1. for loops
+2. while loops 
+
+* for loops: I want to print numbers from 1 to 10. So it will be 'n-1' take 1 number extra for e.g. here take 11
+
+    for i in range(1, 11):
+        print(i)
+
+    for i in range(1, 5):
+        print(2*(i))    # this will multiple 1-4 with 2
+
+      for i in range(1, 11):
+        print("5 X", i , "=", 5*i)    # it will print table of 5
+
+  
+Note: Everytime we put a comma ',' it will create a space
+
+
+* while loops: 
+
+ 
 
 
 
