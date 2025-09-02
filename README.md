@@ -373,4 +373,20 @@ Note: In above while loop code the control goes to the 'while' till the value of
     else:
         print("no substring found")
 
-* 
+* Integer dividation
+
+    num2 = 10.88787
+    num3 = 5.84474
+    result = num2 // num3      # this '//' will result in single value, it will ignore numbers after decimal
+    print(result)
+
+* Modulus (Remainder)
+  
+    result2 = num1 % num2
+    print("Modulus (Remainder):", result2)
+    
+* Absolute Value
+
+    result3 = abs(-7)
+    print("Absolute Value:", result3)
+
