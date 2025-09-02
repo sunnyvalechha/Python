@@ -14,10 +14,11 @@ Shortcuts:
 * Clt+/                        # Comment selected lines
 * After if statement put ":"   # it will automatic make indentation on next line.
 * alt+click                    # type same thing on multiple line: press alt & click on the lines you want to write
+* Snake casing:                # Snake case is a naming convention particularly for variables, functions, and module names. Writing names by joining words with underscores (_) and using only lowercase letters.
+* Camel casing:                # Camel case is a naming convention where multiple words in a name are joined without spaces, and the first letter of each word is capitalized.
+
   
-
-
-- Variables & Data Types:
+# Variables & Data Types:
 
 * **Variables** used to temporary store the value of a data-type. 
 * **Data-type:** Categorize the type of values a variable can hold. Below are the some commonly used data-types:
@@ -299,25 +300,6 @@ Note: In above while loop code the control goes to the 'while' till the value of
           if i == 10:
               break
 
-
-# Strings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Data-type, String, String handling functions
 
 * split the arn by last or second last word
@@ -389,4 +371,8 @@ Note: In above while loop code the control goes to the 'while' till the value of
 
     result3 = abs(-7)
     print("Absolute Value:", result3)
+
+
+# Functions
+
 
