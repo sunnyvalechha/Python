@@ -6,11 +6,7 @@ A: Any day-2-day tasks in a linux systems like creating folders/files, checking 
 * Example: We have a github account in a account we have some 20-30 repositories, our tasks is to list out all the issues that created in the repository and who has the author of that issue? Our tasks is talk to the API of github that fetch issue of the repository and get the author name from it.
 * We can acheive this through shell or python but the modules of the python is rich then shell.  
 
-
-
-
-
-Shortcuts:
+**Shortcuts & Best practises:**
 * Clt+/                        # Comment selected lines
 * After if statement put ":"   # it will automatic make indentation on next line.
 * alt+click                    # type same thing on multiple line: press alt & click on the lines you want to write
@@ -372,7 +368,28 @@ Note: In above while loop code the control goes to the 'while' till the value of
     result3 = abs(-7)
     print("Absolute Value:", result3)
 
+# Strings & Indexing
 
-# Functions
+* Single line string: enclosed within a single pair of quotes
+
+    single_string = "This is a single-line string."
+
+* Multi-line-string: A multi-line string can span across multiple lines of code.
+
+    multi_string = '''This is a
+    multi-line string
+    that spans multiple lines.'''
+
+* **Indexing**: Indexing refers to the process of accessing individual elements within a sequence data type, such as strings, lists, or tuples, by their position. Each element in a sequence is assigned a unique numerical index, starting from 0 for the first element.
+* The first element of a sequence is always at index 0, the second at index 1, and so on.
+* Elements are accessed using square brackets []
+
+
+
+
+
+# Functions, Modules & Packages
+
+
 
 
