@@ -360,7 +360,17 @@ Note: In above while loop code the control goes to the 'while' till the value of
 
 * Strip: Remove unnecessary spaces
 
-speaker = "                                                              International day"
-striptext = speaker.strip()
-print(striptext)
+      speaker = "                                                              International day"
+      striptext = speaker.strip()
+      print(striptext)
 
+* Substring
+
+    text = "Boat is Great !"
+    substring = "was"
+    if substring in text:
+        print(substring, "bla bla bla ho ho")
+    else:
+        print("no substring found")
+
+* 
