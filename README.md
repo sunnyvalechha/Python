@@ -292,7 +292,25 @@ Note: In above while loop code the control goes to the 'while' till the value of
 
 
 
- 
+* Break Loop: The break command allows you to terminate/cancel the execution of loop and exit a loop
+
+      for i in range (1, 20):
+          print(i)
+          if i == 10:
+              break
+
+
+# Strings
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -323,6 +341,26 @@ Note: In above while loop code the control goes to the 'while' till the value of
       result = (string1 + string2)
       print (result)
 
+      fname = "sunny"      # concatenate and result in upper case with space in middle
+      sname = "valechha"
+      result = fname + " " + sname
+      upperresult = result.upper()
+      print(upperresult)
+
 * Count the number of characters in a string using 'len'
 
-  
+      allout = "all insects is dead"
+      print(len(allout))
+
+* Replace
+
+      text = "Python is Great !"
+      update = text.replace("Great", "Awesome")
+      print("modified text is: ", update)
+
+* Strip: Remove unnecessary spaces
+
+speaker = "                                                              International day"
+striptext = speaker.strip()
+print(striptext)
+
