@@ -383,6 +383,7 @@ Note: In above while loop code the control goes to the 'while' till the value of
 * **Indexing**: Indexing refers to the process of accessing individual elements within a sequence data type, such as strings, lists, or tuples, by their position. Each element in a sequence is assigned a unique numerical index, starting from 0 for the first element.
 * The first element of a sequence is always at index 0, the second at index 1, and so on.
 * Elements are accessed using square brackets []
+* -1: Refers to the last element of the sequence called as negative indexing.
 
 
 
