@@ -287,8 +287,6 @@ Note: Everytime we put a comma ',' it will create a space
 
 Note: In above while loop code the control goes to the 'while' till the value of i is less than the value of i (10). It will check if its less than 10 than + 1 
 
-
-
 * Break Loop: The break command allows you to terminate/cancel the execution of loop and exit a loop
 
       for i in range (1, 20):
@@ -385,11 +383,22 @@ Note: In above while loop code the control goes to the 'while' till the value of
 * Elements are accessed using square brackets []
 * -1: Refers to the last element of the sequence called as negative indexing.
 
-
-
-
+name = "Anjali"
+print(name[-1])  # it give result as 'i'
 
 # Functions, Modules & Packages
+
+* Functions in python used to bundle a set of instructions that you want to use repeatedly or, because of their complexity.
+* A function is a block of code which only runs when it is called.
+* In Python a function is defined using the **'def'** (defination) keyword.
+* Once we define the function we must call the function by specifying the name of the function. e.g., we have define the function named average and at last we have specified the value and call the function.
+
+
+def average(a, b, c, d):
+    apple = (a + b + c + d)/3
+    print(apple)
+
+average(2, 4, 6, 8)
 
 
 
