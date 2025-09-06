@@ -390,8 +390,10 @@ print(name[-1])  # it give result as 'i'
 
 * Functions in python used to bundle a set of instructions that you want to use repeatedly or, because of their complexity.
 * A function is a block of code which only runs when it is called.
-* In Python a function is defined using the **'def'** (defination) keyword.
-* Once we define the function we must call the function by specifying the name of the function. e.g., we have define the function named average and at last we have specified the value and call the function.
+* In Python any function is defined using the **'def'** (defination) keyword.
+* Once we define the function we must call the function by specifying the name of the function as per the variable rules. e.g., we have define the function named average and at last we have specified the value and call the function.
+* Add parameters to the function: they should be within the parentheses of the function. End your line with a colon.
+* End your function with a return statement if the function should output something. Without the return statement, your function will return an object **None**.
 
 
 def average(a, b, c, d):
@@ -400,6 +402,18 @@ def average(a, b, c, d):
 
 average(2, 4, 6, 8)
 
+* In the above code we have not defined return statement.
+
+    def average(a, b, c, d):
+        apple = (a + b + c + d)/3
+        return apple
+    
+    boat = average(3, 5, 7, 9)
+    
+    print(boat)
+
+
+* Module: A module is a group of functions
 
 
 
