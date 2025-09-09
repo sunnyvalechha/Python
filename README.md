@@ -502,4 +502,13 @@ print(name[-1])  # it give result as 'i'
 
 
 - **Virtual Environment**: Each virtual environment is independent. Packages installed within one virtual environment do not affect other virtual environments or the global Python installation. This prevents version conflicts when different projects require different versions of the same library.
--  
+
+      python -m venv my-project-1    # -m - module | command will be the same for any module you want to install just the module name will be changed, A new folder will created
+
+      source my-project-1/bin/activate    # activate the environment
+
+      deactivate                # out from the virtual env
+
+
+
+  
