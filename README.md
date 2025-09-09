@@ -393,27 +393,113 @@ print(name[-1])  # it give result as 'i'
 * In Python any function is defined using the **'def'** (defination) keyword.
 * Once we define the function we must call the function by specifying the name of the function as per the variable rules. e.g., we have define the function named average and at last we have specified the value and call the function.
 * Add parameters to the function: they should be within the parentheses of the function. End your line with a colon.
-* End your function with a return statement if the function should output something. Without the return statement, your function will return an object **None**.
+* End your function with a **return** statement if the function should output something. Without the **return** statement, your function will return an object **None**.
 
 
-def average(a, b, c, d):
-    apple = (a + b + c + d)/3
-    print(apple)
+- Example: 1
 
-average(2, 4, 6, 8)
+      def average(a, b, c, d):
+          apple = (a + b + c + d)/3
+          print(apple)
+      
+      average(2, 4, 6, 8)
+      
+      - Example: 2
+      
+      num1 = 10
+      num2 = 20
+      
+      def add():
+          a = num1 + num2
+          print(a)
+      
+      def sub():
+          s = num2 - num1
+          print(s)
+      
+      def mul():
+          m = num1 * num2
+          print(m)
 
-* In the above code we have not defined return statement.
+* In both the above codes we did not call the function, hence it will not give any output after running the code, we have to call the function after the defining the function.
+* Now, try below code there we have call the function it will give us the output.
 
-    def average(a, b, c, d):
-        apple = (a + b + c + d)/3
-        return apple
+      num1 = 10
+      num2 = 20
+      
+      def add():
+          a = num1 + num2
+          print(a)
+      
+      def sub():
+          s = num2 - num1
+          print(s)
+      
+      def mul():
+          m = num1 * num2
+          print(m)
+      
+      add()
+      sub()
+      mul()
+
+
+
+      def average(a, b, c, d):
+          apple = (a + b + c + d)/3
+          return apple
+      
+      boat = average(3, 5, 7, 9)
+      
+      print(boat)
+
+* Module: A module is a group of functions. In example second we have created mulitple function of add, substract and multiple can be called as a module.
+
+- Call the function with **import** keyword.
+
+* We have create another file by the name 'call_the_function.py' and import the function written above in example: 2
+
+    import functions
     
-    boat = average(3, 5, 7, 9)
-    
-    print(boat)
+    functions
+
+* Or it can be written as below.
 
 
-* Module: A module is a group of functions
+      import functions as advance_calci
+      
+      advance_calci
+
+<img width="782" height="351" alt="image" src="https://github.com/user-attachments/assets/e8588937-98af-433b-9eec-2f284d522550" />
 
 
+* Call only one function.
 
+      from functions import add
+      
+      add()
+
+- Return: Functions take input, perform the required logic and returns the output.
+
+      def mul(num1, num2):
+          m = num1 * num2
+          return m
+      
+      print(mul(10, 2))
+      
+      def sub(num1, num2):
+          s = num1 - num2
+          return s
+      
+      print(sub(20, 5))
+
+- **Packages**: Packages are collection of modules. We can download a module from 'python package index' (PYPI)  an artifactory/registry for python packages just like we download a docker image from docker hub.
+
+ * https://pypi.org/  > search 'aws' or 'boto3' you will get commands to install package.
+ * Download the package with 'pip' e.g., '**pip install boto3**' '**pip install jira**'
+ * Validate the package with '**pip show boto3**'
+ * List all the installed packages '**pip list**'
+
+
+- **Virtual Environment**: Each virtual environment is independent. Packages installed within one virtual environment do not affect other virtual environments or the global Python installation. This prevents version conflicts when different projects require different versions of the same library.
+-  
