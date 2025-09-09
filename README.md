@@ -510,5 +510,12 @@ print(name[-1])  # it give result as 'i'
       deactivate                # out from the virtual env
 
 
+# Command line arguments & Enviroment variables
 
-  
+* Command line arguments: The arguments that are given after the name of the program in the command line shell are known as Command Line Arguments.
+* Example - 'aws s3 ls' here aws is a python program whom we are trying to list the s3 buckets. Passing value in this way are called as Command Line Arguments.
+
+* Use-case: Previously we wrote a function and module where we hardcode the values while calling the function, if someone wants to use the function they have to go inside the file and edit the values but in productions thing don't work this way.
+* In Python there is a in-built module called '**sys**' which reads the command line arguments inside the program.  
+
+
