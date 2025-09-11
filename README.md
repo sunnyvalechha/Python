@@ -1,3 +1,18 @@
+# Topics:
+
+1. Python vs Shell
+2. Variables & Data Types
+3. Typecasting
+4. User inputs
+5. Operators
+6. If-Else conditionals
+7. loops
+8. Data-type, String, String handling functions
+9. Strings & Indexing
+10. Functions, Modules, Packages & Virtual Environment
+11. Command line arguments & Enviroment variables
+
+
 Q: Why Python or Shell vs Python?
 A: Any day-2-day tasks in a linux systems like creating folders/files, checking memory/disks we must know shell commands. The primary purpose not the only purpose of Devops engineers is to interact with Linux systems.
 * Shell is restricted to linux systems whereas python is for both linux and windows.
