@@ -560,31 +560,39 @@ Note: In above while loop code the control goes to the 'while' till the value of
     name = "Anjali"
     print(name[-1])  # it give result as 'i'
 
-Ex: 2
-
+* Ex: 2
     s3_bucket = ["sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket"]
     print(s3_bucket)
     print(type(s3_bucket))    # type is list
 
-Ex: 3
-
+* Ex: 3
     s3_bucket = ["sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket"]
     print(s3_bucket[0])    # here '0' is first figure that is sunny_bucket, so on 1, 2, and 3
 
-Ex: 4
-
+* Ex: 4
     s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
     print(type(s3_bucket))    # type is tuple
 
-Ex: 5
-
+* Ex: 5
     s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
     print(len(s3_bucket[3]))  # length of the 3rd statement is 16
 
+* Ex: 6
+  s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
+  s3_bucket.append("new_s3_bucket")
+  print(s3_bucket)    # this throws an error as we cannot append in tuple, tuple is immutable
 
-
+* Ex: 7
     s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
     print(type(s3_bucket))
     print(s3_bucket[1])    # here, 1st value will be 'anjali_s3_bucket'
+
+* Ex: 8
+    s3_bucket = ["sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket"]
+    s3_bucket.append("new_s3_bucket")
+    s3_bucket.remove("sunny_s3_bucket")
+    print(s3_bucket)    # append and remove 1-1 items
+
+
 
 
