@@ -5,13 +5,13 @@
 3. Typecasting
 4. User inputs
 5. Operators
-6. If-Else conditionals
+6. if, elif, else Conditional Handling
 7. loops
 8. Data-type, String, String handling functions
 9. Strings & Indexing
 10. Functions, Modules, Packages & Virtual Environment
 11. Command line arguments & Enviroment variables
-12. Conditional Handling
+12. Lists and Tuples
 
 
 Q: Why Python or Shell vs Python?
@@ -406,14 +406,6 @@ Note: In above while loop code the control goes to the 'while' till the value of
     multi-line string
     that spans multiple lines.'''
 
-* **Indexing**: Indexing refers to the process of accessing individual elements within a sequence data type, such as strings, lists, or tuples, by their position. Each element in a sequence is assigned a unique numerical index, starting from 0 for the first element.
-* The first element of a sequence is always at index 0, the second at index 1, and so on.
-* Elements are accessed using square brackets []
-* -1: Refers to the last element of the sequence called as negative indexing.
-
-name = "Anjali"
-print(name[-1])  # it give result as 'i'
-
 # Functions, Modules & Packages
 
 * Functions in python used to bundle a set of instructions that you want to use repeatedly or, because of their complexity.
@@ -545,5 +537,49 @@ print(name[-1])  # it give result as 'i'
 
 * **Used-case**: Previously we wrote a function and module where we hardcode the values while calling the function, if someone wants to use the function they have to go inside the file and edit the values but in productions thing don't work this way.
 * In Python there is a in-built module called '**sys**' which reads the command line arguments inside the program. **sys** is not a PYPI module it is by default comes along with the python installation.
+
+
+# Lists and Tuples
+
+* Both lists and tuples are indeed sequence data types in Python. This means they are ordered collections of items, and each item can be accessed by its position (index) within the sequence, but they differ fundamentally in their mutability (tendency to change).
+
+- Lists:
+* Mutable: Lists are mutable, meaning their contents can be changed after creation. Elements can be added, removed, or modified.
+* Syntax: Defined using square brackets [].
+
+- Tuples:
+* Immutable: Tuples are immutable, meaning their contents cannot be changed after creation. Once a tuple is defined, its elements cannot be added, removed, or modified.
+* Syntax: Defined using parentheses ().
+
+- Indexing:
+* Indexing refers to the process of accessing individual elements within a sequence data type, such as strings, lists, or tuples, by their position. Each element in a sequence is assigned a unique numerical index, starting from 0 for the first element.
+* The first element of a sequence is always at index 0, the second at index 1, and so on.
+* Elements are accessed using square brackets []
+* -1: Refers to the last element of the sequence called as negative indexing.
+
+    name = "Anjali"
+    print(name[-1])  # it give result as 'i'
+
+Ex: 2
+
+    s3_bucket = ["sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket"]
+    print(s3_bucket)
+    print(type(s3_bucket))    # type is list
+
+Ex: 3
+
+    s3_bucket = ["sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket"]
+    print(s3_bucket[0])    # here '0' is first figure that is sunny_bucket, so on 1, 2, and 3
+
+Ex: 4
+
+    s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
+    print(type(s3_bucket))    # type is tuple
+
+Ex: 5
+
+    s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
+    print(type(s3_bucket))
+    print(s3_bucket[1])    # here, 1st value will be 'anjali_s3_bucket'
 
 
