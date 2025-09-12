@@ -579,6 +579,11 @@ Ex: 4
 Ex: 5
 
     s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
+    print(len(s3_bucket[3]))  # length of the 3rd statement is 16
+
+
+
+    s3_bucket = ("sunny_s3_bucket", "anjali_s3_bucket", "Micky_s3_bucket", "Saarth_s3_bucket")
     print(type(s3_bucket))
     print(s3_bucket[1])    # here, 1st value will be 'anjali_s3_bucket'
 
