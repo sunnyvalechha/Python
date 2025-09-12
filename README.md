@@ -11,6 +11,7 @@
 9. Strings & Indexing
 10. Functions, Modules, Packages & Virtual Environment
 11. Command line arguments & Enviroment variables
+12. Conditional Handling
 
 
 Q: Why Python or Shell vs Python?
@@ -209,12 +210,10 @@ Note: Last '//' is for the floor division that will ignore the digit after decim
       print(not(False))
 
 
-# If-Else conditional statements
+# If-Else Conditional Handling
 
-- Conditional statements?
-* Conditional statements allows us to execute code based on certain conditions.
-* python uses 'if' 'elif' and 'else'
-
+* Conditional handling in Python allows for the execution of different blocks of code based on whether certain conditions are met.
+* This is achieved through the use of **if, elif, and else** statements.
 
 * If statement
 
@@ -224,6 +223,21 @@ Note: Last '//' is for the floor division that will ignore the digit after decim
         print("Thank you")
 
 * If else
+
+    type = (input("Enter the required instance type: "))
+    
+    if type == "t2.micro":
+        print("It will charge you 2 INR")
+    
+    elif type == "t2.medium":
+        print("It will charge you 4 INR")
+    
+    elif type == "t2.large":
+        print("It will cost you around 8 INR")
+    
+    else:
+        print("Type is not valid instance type, please select a valid type of Instance")
+
 
       age = int(input("Enter your age: "))
   
@@ -253,7 +267,6 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
           print("oh my god! you are just born")
       else:
           print("Sorry you cannot drive")
-
 
 * Match case
 
