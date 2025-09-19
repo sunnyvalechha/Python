@@ -283,14 +283,24 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
           case _:
               print("Sorry, better luck next time")
 
-# For loops
+# Loops
 
+* Every programming language this concept must exist.
+* Loops is useful to perform repetetive action on a block of code.
 * Python has two primitive loop commands:
 
-1. for loops
-2. while loops 
+1. for loops: Used when you know this block of code will run definite number of times. E.g., 2 times or 5 times.
+2. while loops: While loops execute a block of code as long as a condition is True. They are useful when the number of operations is not known in advance.
 
 * for loops: I want to print numbers from 1 to 10. So it will be 'n-1' take 1 number extra for e.g. here take 11
+
+**Syntax:**
+
+* for variable in sequence
+
+    colors = ["blue", "green", "yellow"]
+    for s in colors:
+        print(s)
 
       for i in range(1, 11):
           print(i)
@@ -305,8 +315,7 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
 Note: Everytime we put a comma ',' it will create a space
 
 
-* while loops: While loops execute a block of code as long as a condition is True.
-* They are useful when the number of operations is not known in advance.
+**while loops**: 
 
       i = 1
       while i < 10:
