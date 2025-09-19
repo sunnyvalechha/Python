@@ -290,11 +290,11 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
 * Python has two primitive loop commands:
 
 1. for loops: Used when you know this block of code will run definite number of times. E.g., 2 times or 5 times.
-2. while loops: While loops execute a block of code as long as a condition is True. They are useful when the number of operations is not known in advance.
+2. while loops: While loops execute a block of code as long as a condition is True. They are useful when the number of operations is not known in advance. Example: Print 'files are deleting' till the time all the files are deleted from the specific folder.
 
 * for loops: I want to print numbers from 1 to 10. So it will be 'n-1' take 1 number extra for e.g. here take 11
 
-**Syntax:**
+**For Loop Syntax:**
 
 * for variable in sequence
 
@@ -315,7 +315,7 @@ Note: In above code, at the end, "End of Program" is not inside the 'else' state
 Note: Everytime we put a comma ',' it will create a space
 
 
-**while loops**: 
+**while loops Syntax**:
 
       i = 1
       while i < 10:
