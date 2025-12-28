@@ -10,21 +10,23 @@
 8. Data-type, String, String handling functions
 9. Strings & Indexing
 10. Functions, Modules, Packages & Virtual Environment
-11. Command line arguments & Enviroment variables
+11. Command line arguments & Environment variables
 12. Lists and Tuples
 
 
 Q: Why Python or Shell vs Python?
-A: Any day-2-day tasks in a linux systems like creating folders/files, checking memory/disks we must know shell commands. The primary purpose not the only purpose of Devops engineers is to interact with Linux systems.
-* Shell is restricted to linux systems whereas python is for both linux and windows.
-* I can learn ansible to interact with both the linux and windows so why to learn python because ansible is also written on python.
-* When we want to write some complex tasks like to interact with API, data manupulation. There python wins over shell scripting because python is designed to perform these activities in a simpler way.
-* Example: We have a github account in a account we have some 20-30 repositories, our tasks is to list out all the issues that created in the repository and who has the author of that issue? Our tasks is talk to the API of github that fetch issue of the repository and get the author name from it.
-* We can acheive this through shell or python but the modules of the python is rich then shell.  
+* Any day-to-day tasks in a Linux system, like creating folders/files, checking memory/disks, we must know shell commands.
+* The primary purpose, not the only purpose, of DevOps engineers is to interact with Linux systems.
+* Shell is restricted to Linux systems, whereas Python is for both Linux and Windows.
+* I can learn Ansible to interact with both the linux and windows so why learn python because Ansible is also written in Python.
+* When we want to write some complex tasks, like interacting with an API or data manipulation. There python wins over shell scripting because Python is designed to perform these activities more simply.
+* Example: We have a GitHub account with some 20-30 repositories. Our task is to list out all the issues that were created in the repository, and who is the author of that issue? Our task is talk to the API of GitHub that fetch issue of the repository and gets the author name from it.
+* We can acheive this through shell or python but the modules of the python is rich then shell.
+
 
 **Shortcuts & Best practises:**
 * Clt+/                        # Comment selected lines
-* After if statement put ":"   # it will automatic make indentation on next line.
+* After if statement, put ":"   # it will automatically make indentation on the next line.
 * alt+click                    # type same thing on multiple line: press alt & click on the lines you want to write
 * Snake casing:                # Snake case is a naming convention particularly for variables, functions, and module names. Writing names by joining words with underscores (_) and using only lowercase letters.
 * Camel casing:                # Camel case is a naming convention where multiple words in a name are joined without spaces, and the first letter of each word is capitalized.
@@ -32,8 +34,12 @@ A: Any day-2-day tasks in a linux systems like creating folders/files, checking 
   
 # Variables & Data Types:
 
-* **Variables** used to temporary store the value of a data-type. 
-* **Data-type:** Categorize the type of values a variable can hold. Below are the some commonly used data-types:
+* **Variables** are used to store the value of a **data type** temporarily. 
+* **Data-type:** Categorize the type of values a variable can hold. How complier knows that which data type we have specified?
+* Compiler knows through single or double inverted.
+* If we mention anything inside '', "" qoutes consider as string.
+* If we mention with inverted's will be considered as an integer or float if it is decimal.
+* Below are some commonly used data types.
   
   1. integer (int)  - Whole numbers (1,2,5,19)
   2. float          - Decimal numbers (1.4, 0.9)
@@ -42,16 +48,16 @@ A: Any day-2-day tasks in a linux systems like creating folders/files, checking 
   5. list           - Ordered mutable collections (e.g., [1, 2, 3])
   6. tuple          - Ordered immutable collections (e.g., (1, 2, 3))
   7. sets           - Unordered collections of unique elements (e.g., {1, 2, 3})
-  8. dictonary      - key-value pairs (e.g., {"name": "Alice", "age": 25 })
+  8. dictionary      - key-value pairs (e.g., {"name": "Alice", "age": 25 })
   
- **Important:** Python is a dynamically typed programming language where we do not need to specify the data-type of a variable, it automatically understands.
+ **Important:** Python is a dynamically typed programming language where we do not need to specify the data-type of a variable; it automatically understands.
 
     name = "Sunny"
     Age = 35
     City = "Pune"
     Package = 18
     
-    print(name)  # print the value of variable
+    print(name)  # print the value of the variable
     print(Age)
     print(City)
     print(Package)
@@ -65,15 +71,15 @@ A: Any day-2-day tasks in a linux systems like creating folders/files, checking 
     print (this_task_is_completed)
     print(type(this_task_is_completed))
 
-  - Rules to define variables:
-* Variable name must start with letter (a-z, A-Z) or an underscore (_).
+- Rules to define variables:
+* Variable name must start with a letter (a-z, A-Z) or an underscore (_).
 * They can contain letters, numbers, & underscores.
-* Variables names are case sensitive (small & SMALL both will treated differentely)
+* Variable names are case sensitive (small & SMALL both will be treated differently)
 * Avoid using keywords (e.g., if, for, while) as variable names.
 
 # Typecasting in Python
 
-* Type casting in Python, also known as type conversion, is the process of converting a value from one data type to another. This is often necessary when performing operations that require specific data types, or when you need to change the representation of data for a particular purpose.
+* Type casting in Python, also known as type conversion, is the process of converting a value from one data type to another. This is often necessary when performing operations that require specific data types or when you need to change the representation of data for a particular purpose.
 
 Python supports two main types of type conversion:
 * Implicit Type Conversion (Coercion): This occurs automatically when Python converts one data type to another without explicit instruction from the programmer.
