@@ -29,7 +29,7 @@ Q: Why Python or Shell vs Python?
 * After if statement, put ":"   # it will automatically make indentation on the next line.
 * alt+click                    # type same thing on multiple line: press alt & click on the lines you want to write
 * Snake casing:                # Snake case is a naming convention particularly for variables, functions, and module names. Writing names by joining words with underscores (_) and using only lowercase letters.
-* Camel casing:                # Camel case is a naming convention where multiple words in a name are joined without spaces, and the first letter of each word is capitalized.
+* Camel casing:                # Used in K8s also in Yaml. Camel case is a naming convention where multiple words in a name are joined without spaces, and the first letter of each word is capitalized.
 
   
 # Variables & Data Types:
