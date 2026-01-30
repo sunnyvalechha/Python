@@ -137,7 +137,7 @@ Note: Another simple way to converting an string into inter is below:
       print(type(c))
       print(c+10)
 
-- Comments, Escape sequences & Print statements
+# Comments, Escape sequences & Print statements
 
 * Clt+/ # comment multiple lines
 * '''abc xyz''' # comment multiple lines with tripple single quotes
